@@ -1,9 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function HomePage() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className="HomePage">
+      <header className="hero">
+        <h1 className="hero-text">
+          Hola, soy
+          <span> Federico Benitez.</span>
+        </h1>
+        <p className="h-sub-text">
+          Soy de Resistencia Chaco, estudiante de la Tecnicatura Universitaria
+          en Programación.
+        </p>
+        <div className="icons">
+          <Link className="icon-holder">
+            <FontAwesomeIcon icon={faLinkedin} className="icon" />
+          </Link>
+          <Link className="icon-holder">
+            <FontAwesomeIcon icon={faGithub} className="icon" />
+          </Link>
+        </div>
+      </header>
     </div>
   );
 }
