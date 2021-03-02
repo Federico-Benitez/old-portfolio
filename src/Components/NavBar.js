@@ -31,10 +31,10 @@ function NavBar() {
             </NavLink>
           </li>
         </ul>
+        <footer className="footer">
+          <p>@2021 Benitez Federico</p>
+        </footer>
       </nav>
-      <footer className="footer">
-        <p>@2021 Lorem Ipsum</p>
-      </footer>
     </div>
   );
 }
