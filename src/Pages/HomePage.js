@@ -10,8 +10,8 @@ function HomePage() {
     <div className="HomePage">
       <header className="hero">
         <h1 className="hero-text">
-          Hola, soy
-          <span> Federico Benitez.</span>
+          Hola! Soy
+          <span> Federico Benitez</span>
         </h1>
         <p className="h-sub-text">
           Soy de Resistencia Chaco, estudiante de la Tecnicatura Universitaria
