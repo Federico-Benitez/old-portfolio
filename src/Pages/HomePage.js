@@ -11,12 +11,9 @@ function HomePage() {
       <header className="hero">
         <h1 className="hero-text">
           Hola! Soy
-          <span> Federico Benitez</span>
+          <span> Federico Benitez.</span>
         </h1>
-        <p className="h-sub-text">
-          Soy de Resistencia Chaco, estudiante de la Tecnicatura Universitaria
-          en Programación.
-        </p>
+        <p className="h-sub-text">Soy Web Developer.</p>
         <div className="icons">
           <Link className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />

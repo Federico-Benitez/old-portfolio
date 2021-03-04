@@ -28,24 +28,12 @@ function AboutPage() {
       <div className="services-container">
         <ServicesSection
           image={webDevelop}
-          title={"Desarrollo Web"}
-          text={"Desarrollo de aplicaciones web responsive"}
+          title={"Responsive Website Design"}
+          text={""}
         />
-        <ServicesSection
-          image={api}
-          title={"Desarrollo Rest API"}
-          text={"Desarrollo de APIs de tipo REST"}
-        />
-        <ServicesSection
-          image={testing}
-          title={"Testing"}
-          text={"Testeo de aplicaciones web"}
-        />
-        <ServicesSection
-          image={deploy}
-          title={"Deploy"}
-          text={"Desarrollo de aplicaciones web responsive"}
-        />
+        <ServicesSection image={api} title={"Desarrollo Rest APIs"} text={""} />
+        <ServicesSection image={testing} title={"Testing"} text={""} />
+        <ServicesSection image={deploy} title={"Deploy"} text={""} />
       </div>
     </div>
   );
