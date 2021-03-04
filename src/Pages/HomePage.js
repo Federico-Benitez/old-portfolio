@@ -13,7 +13,7 @@ function HomePage() {
           Hola! Soy
           <span> Federico Benitez.</span>
         </h1>
-        <p className="h-sub-text">Soy un Web Developer.</p>
+        <p className="h-sub-text">Soy Web Developer.</p>
         <div className="icons">
           <Link className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />

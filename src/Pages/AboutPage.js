@@ -14,6 +14,35 @@ function AboutPage() {
       <Title title={"Acerca de mi"} span={"Acerca de mi"} />
       <ImageSection />
       <Title title={"Skills"} span={"Skills"} />
+      <div className="services-container">
+        <ServicesSection
+          image={webDevelop}
+          title={"Desarrollo de Páginas Web Responsive"}
+          text={
+            "Páginas web adaptadas para cualquier dispositivo, grande o pequeño."
+          }
+        />
+        <ServicesSection
+          image={api}
+          title={"Desarrollo Rest APIs"}
+          text={"Aplicaciónes web para servir a distintos servicios web."}
+        />
+        <ServicesSection
+          image={testing}
+          title={"Testing"}
+          text={
+            "Testeo y Debugging de Apps Web para evitar fallos y vulnerabilidades."
+          }
+        />
+        <ServicesSection
+          image={deploy}
+          title={"Deploy de Apps y APIs"}
+          text={
+            "Deploy de Apps y APIs para ser accedidas desde cualquier lugar."
+          }
+        />
+      </div>
+      <Title title={"Conocimientos"} span={"Conocimientos"} />
       <div className="all-skills-container">
         <SkillSection skill={"JavaScript"} progress={"70%"} width={"70%"} />
         <SkillSection skill={"HTML"} progress={"80%"} width={"80%"} />
@@ -23,17 +52,6 @@ function AboutPage() {
         <SkillSection skill={"NodeJS"} progress={"60%"} width={"60%"} />
         <SkillSection skill={"MySQL"} progress={"75%"} width={"75%"} />
         <SkillSection skill={"MongoDB"} progress={"60%"} width={"60%"} />
-      </div>
-      <Title title={"Tareas"} span={"Tareas"} />
-      <div className="services-container">
-        <ServicesSection
-          image={webDevelop}
-          title={"Responsive Website Design"}
-          text={""}
-        />
-        <ServicesSection image={api} title={"Desarrollo Rest APIs"} text={""} />
-        <ServicesSection image={testing} title={"Testing"} text={""} />
-        <ServicesSection image={deploy} title={"Deploy"} text={""} />
       </div>
     </div>
   );

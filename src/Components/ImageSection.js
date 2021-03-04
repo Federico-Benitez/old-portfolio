@@ -12,8 +12,8 @@ function ImageSection() {
           <span style={{ fontWeight: "400" }}>Federico Benitez</span>
         </h4> */}
         <p className="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-          maiores! Debitis repellendus similique.
+          Apasionado por las tecnologias Web, desarrollo móvil, inteligencia
+          artificial y big data!.
         </p>
         <div className="about-details">
           <div className="left-section">

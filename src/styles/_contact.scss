@@ -22,20 +22,25 @@
     .left{
         background: url("../img/contact-image.jpg") no-repeat center;
         background-size: cover;
-        width: 50%;
+        width: 40%;
+        -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+        filter: blur(3px);
              
     }
     .right{
-        width: 50%;        
+        
+        width: fit-content;        
         margin: auto;
         padding: 25px 40px;
         align-content: center;
-        background-color: #0A0903;
+        background-color: #1a1917;
         h3{
             text-align: center;            
             position: relative;
             padding-bottom: 2rem;
             margin-bottom: 2rem;
+            font-weight: 400;
+            font-size: 1.9rem;
         }
 
         h3::after{
@@ -56,21 +61,21 @@
         padding: 0.5rem 1rem;
         outline: none;
         border: 2px solid rgba(0,0,0,0);
-        background-color: #0A0903;
-        font-size: 1.1rem;
+        background-color: rgb(44, 46, 48);
+        font-size: 1.3rem;
         margin-bottom: 22px;
-        transition: .3s;
-                
+        transition: .3s; 
+        text-decoration: solid #FFF;        
     }
 
     .field:hover{
-        background-color: rgba(111, 138, 226, 0.459);
+        background-color: #345995;
     }
 
-    .field:focus{
-        background-color: rgba(109, 56, 161, 0.667);
-        border: 2px none rgb(41, 64, 240);
-    }
+    // .field:focus{
+    //     // background-color: #345995;
+    //     // border: 2px none rgb(41, 64, 240);
+    // }
     .area{
         min-height: 150px;
         font-family: inherit;
