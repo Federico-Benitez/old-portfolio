@@ -8,9 +8,9 @@ function ImageSection() {
         <img src={about} alt="" />
       </div>
       <div className="about-info">
-        <h4>
-          Soy <span>Federico Benitez</span>
-        </h4>
+        {/* <h4>
+          <span style={{ fontWeight: "400" }}>Federico Benitez</span>
+        </h4> */}
         <p className="about-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
           maiores! Debitis repellendus similique.
