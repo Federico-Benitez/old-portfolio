@@ -54,6 +54,9 @@
             border-radius: 2px;
             background-color: #ffbc03;
         }        
+        textarea{
+            font: inherit;
+        }
     }
    
     .field{
@@ -65,7 +68,17 @@
         font-size: 1.3rem;
         margin-bottom: 22px;
         transition: .3s; 
-        text-decoration: solid #FFF;        
+        text-decoration: solid #FFF;
+        color: #FFF;  
+    }
+
+    .btn-form{
+        display: block;
+        float: right;
+    }
+    
+    .text-message-form{
+        resize: none;
     }
 
     .field:hover{

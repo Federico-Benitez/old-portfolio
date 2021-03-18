@@ -27,12 +27,12 @@ function Contact() {
               />
 
               <textarea
-                className="field area"
+                className="field text-message-form"
                 rows="10"
                 placeholder="Mensaje"
               ></textarea>
 
-              <button type="submit" className="btn">
+              <button type="submit" className="btn btn-form">
                 Enviar
               </button>
             </form>

@@ -76,3 +76,23 @@
     column-gap: 4rem;
     row-gap: 3rem;
 }
+
+
+.btn-porfolio{
+    padding:.6rem 2rem;
+    background-color: #345995bd;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+}
+
+buttons-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+
+}

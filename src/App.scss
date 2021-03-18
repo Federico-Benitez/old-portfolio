@@ -6,7 +6,7 @@
 @import "./styles/skill";
 @import "./styles/services";
 @import "./styles/contact";
-
+@import "./styles/portfolios";
 
 
 *{
@@ -34,5 +34,7 @@ body{
     color: #b6bccf;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 

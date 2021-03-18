@@ -25,7 +25,7 @@ function AboutPage() {
         <ServicesSection
           image={api}
           title={"Desarrollo Rest APIs"}
-          text={"Aplicaciónes web para servir a distintos servicios web."}
+          text={"Aplicaciones web para servir a distintos servicios web."}
         />
         <ServicesSection
           image={testing}
