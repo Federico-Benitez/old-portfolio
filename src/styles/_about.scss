@@ -87,12 +87,20 @@
     font-size: inherit;
     font-family: inherit;
     color: white;
+    transition: all .3s ease-in-out ;        
+    &:hover{
+        opacity: 60%;
+    }    
+    &:focus{
+        background-color: #4a7ed3;
+    }
 }
 
-buttons-portfolio{
+.buttons-portfolio{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 4rem;
+    align-items: center;    
+    margin: 1rem ;
+    flex-wrap: wrap;
 
 }

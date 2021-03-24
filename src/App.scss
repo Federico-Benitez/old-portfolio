@@ -38,3 +38,9 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+@media screen and ( max-width: 411px){
+    html{
+        font-size: 70%;
+    }
+}

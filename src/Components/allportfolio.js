@@ -25,7 +25,7 @@ const portfolios = [
   },
   {
     id: 3,
-    category: "PaginaWeb",
+    category: "Pagina Web",
     link1: "youtube.com",
     link2: "github.com",
     icon1: "Git",
@@ -34,7 +34,7 @@ const portfolios = [
     title: "Dentista Página"
   },
   {
-    id: 3,
+    id: 4,
     category: "Vue",
     link1: "youtube.com",
     link2: "github.com",

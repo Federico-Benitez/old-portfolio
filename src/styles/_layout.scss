@@ -5,7 +5,24 @@
         background-color: #191D2B;
         position: fixed;
         border-right: 1px solid #2e344e;
+        z-index: 11;        
+        transform-origin: left;
+        @media screen and ( max-width: 1000px){
+            transition: all .4s ease-in-out;
+            transform: translateX(-100%);
+            width: 35%;
+        }
+        @media screen and ( max-width: 411px){           
+            width: 50%;
+        }
+    }
 
+    .nav-toggle{
+        @media screen and ( max-width: 1000px){
+            transition: all .4s ease-in-out;
+            transform: translateX(0);
+            
+        }
     }
 
     .main-content{
@@ -19,6 +36,40 @@
         position: relative;
         .content{
             margin: 5rem 15rem;
+        }
+        @media screen and ( max-width: 1000px){
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 10%;    
+    width: 4rem;
+    height: 4rem;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    .lines-1, .lines-2, .lines-3{
+        height: .4rem;
+        width: 80%;
+        background-color: #475699;
+        pointer-events: none;
+        display: none;
+        &:not(:last-child){
+            margin-bottom: .3rem;
+        }
+        border-radius: 20px;
+    }
+    @media screen and ( max-width: 1000px) {
+        display: block;
+        .lines-1, .lines-2, .lines-3{
+            display: block;
         }
     }
 }
