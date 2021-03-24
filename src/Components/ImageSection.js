@@ -1,5 +1,6 @@
-import React from "react";
-import about from "../img/about.jpg";
+import React from 'react';
+import about from '../img/about.jpg';
+import cv from '../img/Benitez Federico.pdf';
 
 function ImageSection() {
   return (
@@ -12,8 +13,8 @@ function ImageSection() {
           <span style={{ fontWeight: "400" }}>Federico Benitez</span>
         </h4> */}
         <p className="about-text">
-          Apasionado por las tecnologias Web, desarrollo móvil, inteligencia
-          artificial y big data!.
+          Soy un Web Developer, apasionado en el desarrollo móvil e inteligencia
+          artificial.
         </p>
         <div className="about-details">
           <div className="left-section">
@@ -25,7 +26,9 @@ function ImageSection() {
             <p>Resistencia, Chaco, Argentina</p>
           </div>
         </div>
-        <button className="btn">Descargar CV</button>
+        <button className="btn">
+          <a href={cv}>Descargar CV</a>
+        </button>
       </div>
     </div>
   );

@@ -1,6 +1,3 @@
-.PortfoliosPage{
-
-}
 .portfolios-data{
     margin-top: 2rem;
 }
@@ -19,6 +16,10 @@
     }
     
     .portfolio{
+        .description{
+            font-weight: 300;
+            font-size: 1rem;            
+        }
         .image-data{
             margin-top: 3rem;
             position: relative;
