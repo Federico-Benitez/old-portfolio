@@ -1,5 +1,4 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
 
 function Categories({ filter, categories }) {
   return (
