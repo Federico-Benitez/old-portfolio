@@ -27,6 +27,15 @@
         }
     }
 
+    @media screen and ( max-width: 1000px) {
+        flex-direction: column;
+        .about-info{
+            margin-left: 0;
+            margin-top: 1rem;
+        } 
+    }
+    
+
 }
 
 .about-details{
@@ -75,6 +84,9 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 4rem;
     row-gap: 3rem;
+    @media screen and ( max-width: 800px) {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 
@@ -94,6 +106,7 @@
     &:focus{
         background-color: #4a7ed3;
     }
+
 }
 
 .buttons-portfolio{
@@ -102,5 +115,8 @@
     align-items: center;    
     margin: 1rem ;
     flex-wrap: wrap;
+    @media screen and ( max-width: 711px){           
+        margin: 2rem 5rem;
+    }
 
 }
