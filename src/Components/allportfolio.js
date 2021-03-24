@@ -7,8 +7,8 @@ const portfolios = [
   {
     id: 1,
     category: 'React',
-    link1: 'youtube.com',
-    link2: 'github.com',
+    link1: 'https://github.com/Federico-Benitez/Chat-App',
+    link2: 'http://3.141.103.60/login',
     icon1: 'Git',
     icon2: 'Url',
     image: port1,
@@ -19,8 +19,8 @@ const portfolios = [
   {
     id: 2,
     category: 'React',
-    link1: 'youtube.com',
-    link2: 'github.com',
+    link1: 'https://github.com/Federico-Benitez/Social-App',
+    link2: 'https://awesome-social-app.netlify.app/',
     icon1: 'Git',
     icon2: 'Url',
     image: port2,
@@ -31,8 +31,8 @@ const portfolios = [
   {
     id: 3,
     category: 'Pagina Web',
-    link1: 'youtube.com',
-    link2: 'github.com',
+    link1: 'https://github.com/Federico-Benitez/Pagina-Dentista-Parte2',
+    link2: 'https://turnos-dentista.herokuapp.com/login',
     icon1: 'Git',
     icon2: 'Url',
     image: port3,
@@ -43,8 +43,8 @@ const portfolios = [
   {
     id: 4,
     category: 'Vue',
-    link1: 'youtube.com',
-    link2: 'github.com',
+    link1: 'https://github.com/Federico-Benitez/Todo-App',
+    link2: 'https://todoapp-20j619fyj-federico-benitez.vercel.app/#/',
     icon1: 'Git',
     icon2: 'Url',
     image: port4,

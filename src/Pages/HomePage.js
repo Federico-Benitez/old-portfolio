@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function HomePage() {
   return (
@@ -13,7 +13,7 @@ function HomePage() {
           Hola! Soy
           <span> Federico Benitez.</span>
         </h1>
-        <p className="h-sub-text">Soy Web Developer.</p>
+        <p className="h-sub-text"></p>
         <div className="icons">
           <Link className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
