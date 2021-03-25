@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.86d539be.chunk.css",
+    "main.js": "/portfolio/static/js/main.b204850f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b204850f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/js/2.2dd8844b.chunk.js": "/portfolio/static/js/2.2dd8844b.chunk.js",
+    "static/js/2.2dd8844b.chunk.js.map": "/portfolio/static/js/2.2dd8844b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.86d539be.chunk.css.map": "/portfolio/static/css/main.86d539be.chunk.css.map",
+    "static/js/2.2dd8844b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2dd8844b.chunk.js.LICENSE.txt",
+    "static/media/Benitez Federico.d5a23c64.pdf": "/portfolio/static/media/Benitez Federico.d5a23c64.pdf",
+    "static/media/about.4de0034b.jpg": "/portfolio/static/media/about.4de0034b.jpg",
+    "static/media/api.6acc7f5a.svg": "/portfolio/static/media/api.6acc7f5a.svg",
+    "static/media/avatar.de1a1e3d.jpeg": "/portfolio/static/media/avatar.de1a1e3d.jpeg",
+    "static/media/App.scss": "/portfolio/static/media/dots.9978678b.svg",
+    "static/media/dentista.1e92bd12.png": "/portfolio/static/media/dentista.1e92bd12.png",
+    "static/media/deploy.af3caa33.svg": "/portfolio/static/media/deploy.af3caa33.svg",
+    "static/media/messenger.193cbc88.png": "/portfolio/static/media/messenger.193cbc88.png",
+    "static/media/testing.6f7d71e3.svg": "/portfolio/static/media/testing.6f7d71e3.svg",
+    "static/media/todo.09e099d9.png": "/portfolio/static/media/todo.09e099d9.png",
+    "static/media/twitter.d48a67d1.png": "/portfolio/static/media/twitter.d48a67d1.png",
+    "static/media/webDevelop.744dec18.svg": "/portfolio/static/media/webDevelop.744dec18.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9f76519.js",
+    "static/js/2.2dd8844b.chunk.js",
+    "static/css/main.86d539be.chunk.css",
+    "static/js/main.b204850f.chunk.js"
+  ]
+}
