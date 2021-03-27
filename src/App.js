@@ -35,9 +35,9 @@ function App() {
             <Route path="/portfolio/portfolios" exact>
               <PortfoliosPage />
             </Route>
-            <Route path="/portfolio/contact" exact>
+            {/* <Route path="/portfolio/contact" exact>
               <ContactPage />
-            </Route>
+            </Route> */}
           </Switch>
         </div>
       </div>

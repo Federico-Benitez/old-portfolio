@@ -25,11 +25,11 @@ function NavBar() {
               Portfolios
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink to="/portfolio/contact" exact activeClassName="active">
               Contacto
             </NavLink>
-          </li>
+          </li> */}
         </ul>
         <footer className="footer">
           <p>@2021 Benitez Federico</p>
